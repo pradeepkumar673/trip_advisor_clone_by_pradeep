@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripAdvisor Clone by Capt. Pradeep</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="heading">
+        <!-- Left: Logo -->
+        <div class="heading_1">
+            <img src="images/tripadvisor.svg" alt="Tripadvisor Logo" height="40px">
+        </div>
+
+        <!-- Center: Navigation Links -->
+        <nav class="center">
+            <p>Discover</p>
+            <p>Trips</p>
+            <p>Review</p>
+            <p>Forums</p>
+        </nav>
+
+        <!-- Right Sign In -->
+        <div class="icon">
+            <div class="icon_2">
+                <i class="fa-solid fa-globe" style="color: #000000;"></i>
+                <p>| INR</p>
+            </div>
+            <button class="sign-in-btn">Sign In</button>
+        </div>
+    </header>
+
+
+    <!--Where to-->
+
+    <div class="where">
+        <h1>Where to?</h1>
+    </div>
+
+
+    <!--Popular Destinations-->
+    <div class="popular">
+        <div class="popular_1">
+            <i class="fa-solid fa-house" style="color: #000000;"></i>
+            <h3>Search All</h3>
+        </div>
+        <div class="popular_1">
+            <i class="fa-solid fa-bed" style="color: #000000;"></i>
+            <h3>Hotels</h3>
+        </div>
+        <div class="popular_1">
+            <i class="fa-solid fa-camera" style="color: #000205;"></i>
+            <h3>Things To Do</h3>
+        </div>
+        <div class="popular_1">
+            <i class="fa-solid fa-utensils" style="color: #000205;"></i>
+            <h3>Restaurant</h3>
+        </div>
+        <div class="popular_1">
+            <i class="fa-solid fa-jet-fighter-up" style="color: #000000;"></i>
+            <h3>Flights</h3>
+        </div>
+        <div class="popular_1">
+            <i class="fa-solid fa-house-user" style="color: #00060f;"></i>
+            <h3>Holiday Homes</h3>
+        </div>
+
+    </div>
+
+
+
+    <!--searchbar-->
+    <div class="search-bar">
+        <i class="fa fa-search search-icon"></i>
+        <input type="text" class="search-input" placeholder="Places to go, things to do, hotels...">
+        <button class="search-btn">Search</button>
+    </div>
+
+
+
+
+    <!--hero-->
+    <div class="hero-section">
+        <div class="hero-image">
+            <img src="images/download.jpg" alt="Underwater Adventure">
+            <p class="tag">@pradeepKumar673</p>
+        </div>
+
+        <div class="hero-text">
+            <h1>Book the <br>
+                best part <br>
+                of your trip</h1>
+            <p>Browse unforgettable things to do—right here.</p>
+            <button class="hero-btn">Find things to do</button>
+        </div>
+    </div>
+
+
+
+
+
+    <!--ionterest-->
+    <div class="interests-section">
+        <h2>Find things to do by interest</h2>
+        <p>Whatever you're into, we’ve got it</p>
+        <div class="cards-container">
+            <div class="card" style="background-image: url('images/1.jpg');">
+                <h3>Outdoors</h3>
+            </div>
+            <div class="card" style="background-image: url('images/2.jpg');">
+                <h3>Food</h3>
+            </div>
+            <div class="card" style="background-image: url('images/3.jpg');">
+                <h3>Culture</h3>
+            </div>
+            <div class="card" style="background-image: url('images/4.jpg');">
+                <h3>Water</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--promotion-->
+    <div class="promo-card">
+        <div class="promo-image">
+            <img src="images/macao.jpg" alt="Macao Resorts">
+        </div>
+        <div class="promo-content">
+            <p class="sponsor">Sponsored by Macao Government Tourism Office</p>
+            <h2>Discover Macao Integrated Resorts</h2>
+            <p class="description">
+                Find out why travellers like you are raving about Macao Integrated Resorts
+            </p>
+        </div>
+        <div class="promo-button">
+            <button>Explore now</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="suggested-places">
+        <h2>You might like these</h2>
+        <p class="subtitle">More things to do in Rome</p>
+
+        <div class="places-grid">
+
+            <!-- Pantheon Card -->
+            <div class="place-item">
+                <img src="images/one.jpg" alt="Pantheon">
+                <div class="details">
+                    <h3>Pantheon</h3>
+                    <p class="rating">4.7 <span class="dots">●●●●●</span> (80,315)</p>
+                    <p class="tags">Ancient Ruins, Architectural Buildings</p>
+                </div>
+            </div>
+
+            <!-- Fontana di Trevi Card -->
+            <div class="place-item">
+                <img src="images/two.jpg" alt="Fontana di Trevi">
+                <span class="label">2024</span>
+                <div class="details">
+                    <h3>Fontana di Trevi</h3>
+                    <p class="rating">4.4 <span class="dots">●●●●○</span> (1,04,303)</p>
+                    <p class="tags">Fountains</p>
+                </div>
+            </div>
+
+            <!-- Palatine Hill Card -->
+            <div class="place-item">
+                <img src="images/three.jpg" alt="Palatine Hill">
+                <span class="label blue">2024</span>
+                <div class="details">
+                    <h3>Palatine Hill</h3>
+                    <p class="rating">4.6 <span class="dots">●●●●●</span> (25,436)</p>
+                    <p class="tags">Ancient Ruins, Historic Sites</p>
+                </div>
+            </div>
+
+            <!-- Piazza Navona Card -->
+            <div class="place-item">
+                <img src="images/four.jpg" alt="Piazza Navona">
+                <span class="label blue">2024</span>
+                <div class="details">
+                    <h3>Piazza Navona</h3>
+                    <p class="rating">4.5 <span class="dots">●●●●●</span> (40,085)</p>
+                    <p class="tags">Historic Walking Areas, Landmarks</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="suggested-places">
+        <h2>Explore experiences near Chennai (Madras)</h2>
+        <p class="subtitle">Can’t-miss picks near you</p>
+
+        <div class="places-grid">
+
+            <!-- Mahabalipuram -->
+            <div class="place-item">
+                <img src="images/5.jpg" alt="Mahabalipuram">
+                <div class="details">
+                    <h3>Mahabalipuram tour by Tourism Ministry approved company</h3>
+                    <p class="rating">4.9 <span class="dots">●●●●●</span> (308)</p>
+                    <p class="tags price">from ₹8,764 per adult</p>
+                </div>
+            </div>
+
+            <!-- Chennai City Tour -->
+            <div class="place-item">
+                <img src="images/6.jpg" alt="Chennai Tour">
+                <div class="details">
+                    <h3>Total Chennai city tour in Private car with guide & lunch by Wonder tours</h3>
+                    <p class="rating">4.9 <span class="dots">●●●●●</span> (59)</p>
+                    <p class="tags price">from ₹6,047 per adult</p>
+                </div>
+            </div>
+
+            <!-- Cooking Class -->
+            <div class="place-item">
+                <img src="images/7.jpg" alt="Cooking Class">
+                <div class="details">
+                    <h3>South Indian Vegetarian Cooking Class in Chennai with Meena</h3>
+                    <p class="rating">4.9 <span class="dots">●●●●●</span> (16)</p>
+                    <p class="tags price">from ₹4,732 per adult</p>
+                </div>
+            </div>
+
+            <!-- Pondicherry Tour -->
+            <div class="place-item">
+                <img src="images/8.jpg" alt="Pondicherry Tour">
+                <div class="details">
+                    <h3>Auroville and Pondicherry Tour from Chennai</h3>
+                    <p class="rating">5.0 <span class="dots">●●●●●</span> (5)</p>
+                    <p class="tags price">from ₹3,856 per adult</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="inspiration-section">
+        <h2>Inspiration to get you going</h2>
+
+        <div class="inspiration-cards">
+
+            <div class="inspiration-card">
+                <img src="images/q.jpg" alt="Stargazing">
+                <p class="caption">Where to stargaze around the world, from Utah to Dubai</p>
+            </div>
+
+            <div class="inspiration-card">
+                <img src="images/w.jpg" alt="Art Hotspots">
+                <p class="caption">Load up on art in Paris, NYC, and other culture hot spots</p>
+            </div>
+
+            <div class="inspiration-card">
+                <img src="images/e.jpg" alt="Food Trip">
+                <p class="caption">13 cities, 13 unbelievable food trips</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="suggested-places">
+        <h2>Things to do—right now</h2>
+        <p class="subtitle">Seasonal faves you don’t want to miss</p>
+
+        <div class="places-grid">
+
+            <!-- Card 1: Sorrento -->
+            <div class="place-item">
+                <img src="images/r.jpg" alt="Sorrento Boat Tour">
+                <div class="details">
+                    <span class="location-tag">Sorrento</span>
+                    <h3>Small-group boat tour of the Amalfi Coast from Sorrento</h3>
+                    <p class="rating">4.8 <span class="dots">●●●●●</span> (316)</p>
+                    <p class="tags">from ₹15,803 per adult</p>
+                </div>
+            </div>
+
+            <!-- Card 2: Albufeira -->
+            <div class="place-item">
+                <img src="images/t.jpg" alt="Dolphins Tour">
+                <div class="details">
+                    <span class="location-tag">Albufeira</span>
+                    <h3>Dolphins Search and Benagil Caves from Albufeira</h3>
+                    <p class="rating">4.9 <span class="dots">●●●●●</span> (3,249)</p>
+                    <p class="tags">from ₹3,591 per adult</p>
+                </div>
+            </div>
+
+            <!-- Card 3: Calgary -->
+            <div class="place-item">
+                <img src="images/y.jpg" alt="Banff National Park">
+                <div class="details">
+                    <span class="location-tag">Calgary</span>
+                    <h3>Explore Banff National Park with Our Premium Day Tour</h3>
+                    <p class="rating">5.0 <span class="dots">●●●●●</span> (263)</p>
+                    <p class="tags">from ₹10,288 per adult</p>
+                </div>
+            </div>
+
+            <!-- Card 4: Jackson -->
+            <div class="place-item">
+                <img src="images/u.jpg" alt="Rafting in Jackson Hole">
+                <div class="details">
+                    <span class="location-tag">Jackson</span>
+                    <h3>Whitewater Rafting in Jackson Hole: Small Boat Excitement</h3>
+                    <p class="rating">4.9 <span class="dots">●●●●●</span> (457)</p>
+                    <p class="tags">from ₹11,393 per adult</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="collection-section">
+        <h2>Browse themed collections</h2>
+        <div class="collection-grid">
+
+            <!-- Card 1 -->
+            <div class="collection-card">
+                <img src="images/z.jpg" alt="On the Seine">
+                <div class="card-title">On the Seine</div>
+                <p class="card-subtitle">Sightseeing tours and cruises on the water</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="collection-card">
+                <img src="images/x.jpg" alt="Sailing around Sardinia">
+                <div class="card-title">Sailing around Sardinia</div>
+                <p class="card-subtitle">Find Mediterranean bliss on the water</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="collection-card">
+                <img src="images/c.jpg" alt="Head to the Highlands">
+                <div class="card-title">Head to the Highlands</div>
+                <p class="card-subtitle">See rolling hills, castles, and Loch Ness</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="collection-card">
+                <img src="images/v.jpg" alt="Only in Tokyo">
+                <div class="card-title">Only in Tokyo</div>
+                <p class="card-subtitle">Unique experiences you can’t do anywhere else</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h4>About Tripadvisor</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Press</li>
+                    <li>Resources and Policies</li>
+                    <li>Careers</li>
+                    <li>Trust & Safety</li>
+                    <li>Contact us</li>
+                    <li>Tripadvisor Technology Blog</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Explore</h4>
+                <ul>
+                    <li>Write a review</li>
+                    <li>Add a Place</li>
+                    <li>Join</li>
+                    <li>Travellers' Choice</li>
+                    <li>Help Centre</li>
+                    <li>Travel Stories</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Do Business With Us</h4>
+                <ul>
+                    <li>Owners & DMO/CVB</li>
+                    <li>Business Advantage</li>
+                    <li>Sponsored Placements</li>
+                    <li>Access our Content API</li>
+                </ul>
+                <h4>Get The App</h4>
+                <ul>
+                    <li>iPhone App</li>
+                    <li>Android App</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Tripadvisor Sites</h4>
+                <ul>
+                    <li>Book tours and attraction tickets on <a href="#">Viator</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <img src="images/tripadvisor.svg"
+                    alt="logo" class="footer-logo" />
+                <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+                <div class="policy-links">
+                    <p class="policy-link">Terms of Use</p>
+                    <p class="policy-link">Privacy and Cookies Statement</p>
+                    <p class="policy-link">Cookie consent</p>
+                    <p class="policy-link">Site Map</p>
+                    <p  class="policy-link">How the site works</p>
+                    <p class="policy-link">Contact us</p>
+                    <p class="policy-link">Accessibility Statement</p>
+                </div>
+            </div>
+
+            <p class="footer-note">
+                Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and
+                applications... <br>
+                <strong>Clone website made with ❤️ by Pradeep</strong>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
